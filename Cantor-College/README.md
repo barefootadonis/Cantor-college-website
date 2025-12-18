@@ -4,11 +4,11 @@ This project uses ReactJs but doesn't use Flask for data.
 
 ## ADESUWA NOSA-OGIE
 
-## GITHUB REPO ADDRESS
+## [GITHUB REPO ADDRESS](https://github.com/barefootadonis/Cantor-college-website.git)
 
 Repo located at:
 
-https://github.com/YOUR-GITHUB-NAME/YOUR-REPO-NAME
+https://github.com/barefootadonis/Cantor-college-website
 
 If the repo is **private** ensure you add `mustbebuilt` and `tonderaiMaswera` as [contributors](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/inviting-collaborators-to-a-personal-repository).
 
