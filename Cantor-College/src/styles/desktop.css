@@ -1,0 +1,149 @@
+@media only screen and (min-width: 930px) {
+  nav {
+    padding: 14px 20px;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex !important;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: auto;
+    margin-left: auto;
+    position: static;
+  }
+
+  nav ul li {
+    border: none;
+    margin-right: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  nav ul li a {
+    padding: 8px 12px;
+    color: white;
+  }
+
+  .submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #004a99;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    min-width: 200px;
+    z-index: 1000;
+  }
+
+  .dropdown:hover .submenu {
+    display: block;
+  }
+
+  .dropdown-toggle {
+    background: transparent;
+    border: none;
+    color: inherit;
+    cursor: default;
+    pointer-events: auto;
+    font-weight: bold;
+    padding: 8px 12px;
+  }
+
+  .submenu li a {
+    padding: 8px 12px;
+    display: block;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .nav-list.closing .submenu {
+    display: none !important;
+  }
+
+  #logo {
+    margin-right: 12px;
+    padding: 12px
+  }
+
+  .page-banner {
+    padding: 80px 20px;
+  }
+
+  .banner-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .page-banner h1 {
+    color: white;
+  }
+
+  .page-content {
+    flex-direction: row;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+    gap: 24px;
+  }
+
+  .main-section {
+    flex: 1 1 auto;
+  }
+
+  .sidebar {
+    width: 300px;
+    flex: 0 0 300px;
+    align-self: flex-start;
+    padding: 0;
+  }
+
+  .sidebar img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .site-footer {
+    height: 60px;
+    padding: 0 24px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .site-footer .site-footer-inner {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #logo .logo-img {
+    height: var(--logo-height-desktop);
+    width: auto;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex !important;
+  }
+
+  .carousel-container {
+    height: 420px;
+  }
+
+  .carousel-text h1 {
+    font-size: 2rem;
+  }
+
+  .carousel-text p {
+    font-size: 1.05rem;
+  }
+}
